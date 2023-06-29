@@ -1,0 +1,131 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+ul,ol
+{
+    list-style: none ;
+}
+body
+{
+    background: #bfbfbf url('images/background.jpg') repeat-x; 
+    font-family: Arial, sans-serif;
+}
+header
+{
+    padding: 30px 0;
+}
+header h1
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Limelight', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;       
+}
+header p
+{
+    color: #fff;
+    margin: 1em;
+}
+
+
+
+
+
+
+
+
+
+.image
+{
+    display: flex;
+    justify-content: center;
+}
+.off
+{
+    background-image: url(images/bw-image.jpg);
+    left: 0;
+    top: 0;
+    width: 140px;
+    height: 500px;
+}
+.on
+{
+    background-image: url(images/color-image.jpg);
+    left: 0;
+    top: 0;
+    width: 140px;
+    height: 500px;
+}
+#img1
+{
+    background-position: 140px;
+}
+#img2
+{
+    background-position: 280px;
+}
+#img3
+{
+    background-position: 420px;
+}
+#img4
+{
+    background-position: 560px;
+}
+#img5
+{
+    background-position: 700px;
+}
+.presentation
+{
+    background-color: #fff;
+    color: #000;
+    width: 140px;
+    height: 500px;
+}
+
+
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Nalyd59/PRSONALITY.git
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boutons
+{
+    padding-top: 550px;
+}
+.boutons input 
+{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
