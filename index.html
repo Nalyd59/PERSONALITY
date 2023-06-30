@@ -19,14 +19,14 @@
 			<h1>Top 5 des meilleures personnalités</h1>
 			<p>Dès l'ouverture de votre application, et comme indiqué sur la photo la photo de la chanteuse doit être obligatoirement active, en couleur et sa description doit être visible</p>
 		</header>
-		<section class="container">
+		<section id="container">
 			<ul>
-				<li>
+				<li id="li1">
 					<div id="img1" class="image">
 						<div class="off"></div>
-						<div class="on"></div>
+						<div id='ok1' class="on"></div>
 					</div>
-					<div class="presentation">
+					<div id="p1" class="presentation">
 						<h2>Dwayne Johnson</h2>
 						<h3>Ses meilleures films</h3>
 						<ol>
@@ -35,13 +35,13 @@
 							<li>Le retour de la momie</li>
 						</ol>
 					</div>
-				<!-- </li>
-				<li>
+				</li>
+				<li id="li2">
 					<div id="img2" class="image">
 						<div class="off"></div>
-						<div class="on"></div>
+						<div id='ok2' class="on"></div>
 					</div>
-					<div class="presentation">
+					<div id="p2" class="presentation">
 						<h2>Vin Diesel</h2>
 						<h3>Ses meilleures films</h3>
 						<ol>
@@ -51,12 +51,12 @@
 						</ol>
 					</div>
 				</li> 
-				<li>
+				<li id="li3">
 					<div id="img3" class="image">
 						<div class="off"></div>
-						<div class="on"></div>
+						<div id='ok3' class="on"></div>
 					</div>
-					<div class="presentation">
+					<div id="p3" class="presentation">
 						<h2>Imen Es</h2>
 						<h3>Ses meilleures chansons</h3>
 						<ol>
@@ -66,12 +66,12 @@
 						</ol>
 					</div>
 				</li>
-				<li>
+				<li id="li4">
 					<div id="img4" class="image">
 						<div class="off"></div>
-						<div class="on"></div>
+						<div id='ok4' class="on"></div>
 					</div>
-					<div class="presentation">
+					<div id="p4" class="presentation">
 						<h2>Jessica Alba</h2>
 						<h3>Ses meilleures films</h3>
 						<ol>
@@ -81,12 +81,12 @@
 						</ol>
 					</div>
 				</li>
-				<li>
+				<li id="li5">
 					<div id="img5" class="image">
 						<div class="off"></div>
-						<div class="on"></div>
+						<div id='ok5' class="on"></div>
 					</div>
-					<div class="presentation">
+					<div id="p5" class="presentation">
 						<h2>Zita Hanrot</h2>
 						<h3>Ses meilleures films</h3>
 						<ol>
@@ -95,16 +95,19 @@
 							<li>Rouge</li>
 						</ol>
 					</div>
-				</li> -->
+				</li>
 			</ul>
+			
 		</section>
 		<section class="boutons">
-			<input type="button" onclick="select_img(this.value)" value="johnson">
+			<input type="button" onclick="select_img(this.value)" value="Johnson">
 			<input type="button" onclick="select_img(this.value)" value="Diesel">
-			<input type="button" onclick="select_img(this.value)" value="Imen">
+			<input type="button" onclick="select_img(this.value)"
+			value="Imen">
 			<input type="button" onclick="select_img(this.value)" value="Jessica">
-			<input type="button" onclick="select_img(this.value)" value="Zita">
+			<input type="button" onclick="select_img(this.value)" 
+			value="Zita">
 		</section>
 		<script src="script.js"></script>
-	</body>
+	</body> 
 </html>
